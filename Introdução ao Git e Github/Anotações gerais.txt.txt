@@ -1,0 +1,66 @@
+Link para download do Git: http://git-scm.com/download/win
+O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Por que usar o Git?
+
+- permite controle de versão 
+- permite armazenamento em nuvem de qualquer forma de arquivo
+- ideal para trabalho em equipe, onde diferentes pessoas modificam o mesmo arquivo
+- permite que outras pessoas vejam e melhorem seu codigo (para uso em programação)
+- reconhecimento de outras pessoas, uma vez que o github funciona como uma rede
+social e várias pessoas podem ver seus códigos e projetos.
+
+
+CLI - command line interface
+GUI - graffic use interface
+
+O terminal gitbash nos permite mudar de pasta, listar pastas, crias pastas/
+repositorios e deletar pastas/ repositorios, através de comandos especificos.
+
+
+- dir (diretorio): comando para mostrar diferentes pastas armazenadas
+- cd (change directory): permite navegar entre diferentes pastas
+- Ctrl l (clear): comando para limpar a tela do terminal
+- Tab: permite que o terminal auto-complete algo que ja foi escrito
+- cd .. : permite voltar ao diretorio base.
+
+
+O que é SHA1 ?
+SHA significa "secure hash algorithm"(algoritmo de hash seguro); conjunto
+de funções hash criptográficas projetadas pela NSA (Agencia Nacional de Segurança dos EUA).
+
+A encriptação gera um conjunto de caracteres identificador de 40 dígitos.
+
+OBJETOS INTERNOS DO GIT:
+* Blobs
+* Trees
+* Commits
+
+
+* Git Init = Inicia uma pasta oculta com pormenores operacionais do Git.
+Inicia no Git o conceito de repositório dentro de um repositório(pasta).
+
+* Tracked/Untracked = (arquivos) Rastreados ou não-rastreados pelo Git.
+
+* Staged = Arquivo preparado para uma próxima ação pelo Git (em geral, pronto para ser commitado).
+
+* Commit = Indica que os arquivos estão prontos para serem modificados ou não. Registra a condição atual
+do arquivo. (o Git registra uma espécie de imagem do arquivo). Após isso o arquivo pode ou não ser 
+enviado para o repositório remoto.
+
+GIT PUSH: Empurra (por assim dizer) o arquivo, para o repositório remoto (GitHub).
+GIT PULL: Puxa (por assim dizer) os arquivos do repositório remoto (GitHub) para o repositório local,
+comparando as versões e determinando ou não a necessidade de modificações.
+
+
+
+
+
+
+
+
+
+
+
+ 
+
