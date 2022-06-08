@@ -1,0 +1,55 @@
+*JAVA: Anotações gerais.
+
+Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 na empresa
+"Sun Microsystems" e adquirida posteriormente pelo ORACLE em 2008.
+
+Desde seu lançamento em Maio de 1995, a plantamforma JAVA foi adotada mais rapidamente que qualquer
+outra linguagem de programação na história da computação.
+
+Tornou-se popular pelo seu uso na internet e esta presente em navegadores, programas, jogos, celulares, 
+calculadoras, etc.
+
+
+A linguagem Java é compilada para um "bytecode" que é interpretada por uma máquina virtual (JVM).
+
+
+*PLATAFORMA X LINGUAGEM
+
+A linguagem Java, não é a única linguagem da plataforma JAVA.(Ex: Groovy)
+A vantagem da plataforma JAVA é não estar presa a um único sistema operacional ou hardware, pois 
+seus programas rodam através de máquinas virtuais, que podem ser emuladas em qualquer S.O .
+
+* Java SE (Java Platform, Standad Edition)
+* Java EE (Java Platform, Enterprise Edition)
+* Java ME (Java Platform, Micro Edition)
+
+*FASES DA EXECUÇÃO JAVA
+
+1 - Escrevemos seu código-fonte (arquivo com extenção .java)
+2 - Utilizamos o JDK paracompilar o código-fonte e gerar um arquivo "bytecode" (extenção .class)
+3 - Para executar o programa, a JVM lê o arquivo compilado (.class) e as bibliotecas padrões do Java que 
+estão na JRE
+
+*JDK x JVM x JRE
+
+* JDK (Java Development Kit) = Kit de desenvolvimento java, responsável por compilar código-fonte 
+(.java) e bytecode (.class)
+
+* JVM (Java Virtual Machine) = Máquina virtual do java, responsável por executar o bytecode (.class)
+
+* JRE (Java Runtime Environment) = Ambiente de execução do Java, que fornece as bibliotecas padrões do java
+para o JDK compilar seu código e para a JVM executar seu código.
+
+
+*VERSÕES
+
+OpenJdk é totalmente open source com uma GNU (general public license).
+
+Jdk Oracle é uma versão paga, que requer uma licença comercial sob Contrato de Licença de Código Binário
+Oracle.
+ As versões Open, possuem suporte e atualização que acontecem em média a cada anos.
+
+  
+
+
+
